@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+<p>{{introduce}}</p>
+<table>
+    <tr>
+        {{#each titleList}}
+            
+            <th><b>{{this}}</b></th>
+            
+        {{/each}}
+    </tr>
+    
+    {{#each termsList}}
+        <tr>
+            <td>{{this.ID}}#</td>
+            <td>{{this.Term}}</td>
+            <td>{{this.Definition}}</td>
+            <td>{{this.Source}} <a href="{{this.url}}">{{this.url}}</a> </td>
+        </tr>
+    {{/each}}
+
+</table>
