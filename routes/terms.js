@@ -145,6 +145,76 @@ const termsList = [
         "Definition": "A measure of a team's rate of development, often measured in story points completed per sprint. Improves with DevOps.",
         "Source": "Atlassian. (n.d.). Velocity. Atlassian. Retrieved February 27, 2023,",
         "url": "https://www.atlassian.com/agile/project-management/velocity"
+    },
+    {
+        "ID": 21,
+        "Term": "Organizational Alignment",
+        "Definition": "The process of coordinating goals, objectives, and activities across all levels and departments in an organization. Critical for reducing resistance and enabling transformation.",
+        "Source": "What is Organizational Alignment? Definition, Model & Tips. Cleverism. (2022). Retrieved from", 
+        "url": "https://www.cleverism.com/skills-and-career/organizational-alignment/"
+    },
+    {
+        "ID": 22,
+        "Term": "Resistance to Change",
+        "Definition": "The tendency for people to resist or avoid making changes, even if they would benefit from them. Managing this is key for transformation success.",
+        "Source": "Resistance to Change - Meaning, Causes and How to Overcome. Cleverism. (2021). Retrieved from",
+        "url": "https://www.cleverism.com/skills-and-career/resistance-to-change/"
+    },
+    {
+        "ID": 23,
+        "Term": "Incremental Change",
+        "Definition": "Making gradual changes in smaller steps versus all at once. Recommended approach for DevOps adoption to reduce risk and resistance.",
+        "Source": "Incremental vs Radical Change: 15 Key Differences. Indeed. (2022). Retrieved from",
+        "url": "https://www.indeed.com/career-advice/career-development/incremental-vs-radical-change"
+    },
+    {
+        "ID": 24,
+        "Term": "Organizational Silos",
+        "Definition": "Isolated teams or departments that do not communicate or collaborate effectively. Breaking these down is critical for DevOps culture.",
+        "Source": "What are Organizational Silos? Insights. (2022). Retrieved from",
+        "url": "https://www.insightsquared.com/2013/10/what-are-organizational-silos/"
+    },
+    {
+        "ID": 25,
+        "Term": "Scaling",
+        "Definition": "Growing a company's operations, processes, or systems to handle increased business. presents challenges like preserving culture and quality.",
+        "Source": "What is Scaling? Definition & Challenges of Scaling a Business. Feedough. (2019). Retrieved from",
+        "url": "https://www.feedough.com/scaling-definition-challenges-business/"
+    },
+    {
+        "ID": 26,
+        "Term": "Automation",
+        "Definition": "Using technology to perform tasks automatically that previously required human effort. Must be applied judiciously in DevOps.",
+        "Source": "What is Automation? Definition, Types, Uses and More. Indeed. (2022). Retrieved from",
+        "url": "https://www.indeed.com/career-advice/career-development/what-is-automation"
+    },
+    {
+        "ID": 27,
+        "Term": "Technical Debt",
+        "Definition": "Problems in systems that accumulate over time as teams take shortcuts or do suboptimal work. Must be addressed.",
+        "Source": "Technical Debt Definition. TechTarget. (2022). Retrieved from",
+        "url": "https://www.techtarget.com/whatis/definition/technical-debt"
+    },
+    {
+        "ID": 28,
+        "Term": "Legacy Systems",
+        "Definition": "Older computer systems or applications that remain critical to a business but pose challenges like lack of flexibility.",
+        "Source": "Legacy system. TechTarget. (2005). Retrieved from",
+        "url": "https://searchdatamanagement.techtarget.com/definition/legacy-system"
+    },
+    {
+        "ID": 29,
+        "Term": "Modernization",
+        "Definition": "Upgrading legacy systems and moving to more modern platforms, technologies, and practices like cloud and microservices.",
+        "Source": "Legacy Application Modernization | Modernize Aging Software. Appian. (n.d.). Retrieved from",
+        "url": "https://www.appian.com/platform/application-modernization/"
+    },
+    {
+        "ID": 30,
+        "Term": "Transformational Change",
+        "Definition": "Fundamental, substantial changes in strategies, processes, technology, or culture. DevOps requires this type of broad, enterprise-level change.",
+        "Source": "What is transformational change? Definition and meaning. Market Business News. (2021). Retrieved from",
+        "url": "https://marketbusinessnews.com/financial-glossary/transformational-change/"
     }
 ];
 
