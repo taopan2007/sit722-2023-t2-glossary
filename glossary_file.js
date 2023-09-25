@@ -282,7 +282,77 @@ const termsList = [
         "Definition": "The ability to apply Terraform configurations repeatedly with the same outcome. Allows managing infrastructure safely.",
         "Source": "Idempotency. Wikipedia. (2023). Retrieved from",
         "url": "https://en.wikipedia.org/wiki/Idempotence#Computer_science_meaning"
-    }
+    },
+    {
+        "ID": 41,
+        "Term": "Kubernetes",
+        "Definition": "An open source container orchestration system for automating deployment, scaling and management of containerized applications.",
+        "Source": "What is Kubernetes? Kubernetes. (n.d.). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"
+      },
+      {
+        "ID": 42,
+        "Term": "Containers",
+        "Definition": "A standardized unit of software that packages code and dependencies together so applications can run quickly and reliably in different environments.",
+        "Source": "What are containers? IBM Cloud Education. (n.d.). Retrieved from",
+        "url": "https://www.ibm.com/cloud/learn/containers"
+      },
+      {
+        "ID": 43,
+        "Term": "Pods",
+        "Definition": "The smallest deployable units in Kubernetes. Pods contain one or more containers and represent a single instance of an application.",
+        "Source": "Pods Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/workloads/pods/"
+      },
+      {
+        "ID": 44,
+        "Term": "Services",
+        "Definition": "An abstraction which defines a logical set of Pods and a policy to access them. Used for discovery and load balancing.",
+        "Source": "Services Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/services-networking/service/"
+      },
+      {
+        "ID": 45,
+        "Term": "Volumes",
+        "Definition": "Shareable, persistent storage that containers can access and use for stateful data. Enables data persistence for stateful apps.",
+        "Source": "Volumes Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/storage/volumes/"
+      },
+      {
+        "ID": 46,
+        "Term": "ConfigMaps",
+        "Definition": "API objects that store non-confidential configuration information as key-value pairs. Useful for separating config from code.",
+        "Source": "Configure a Pod to Use a ConfigMap Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/"
+      },
+      {
+        "ID": 47,
+        "Term": "Secrets",
+        "Definition": "Similar to ConfigMaps but designed to hold confidential data like passwords. Encrypted at rest.",
+        "Source": "Secrets Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+      },
+      {
+        "ID": 48,
+        "Term": "DaemonSets",
+        "Definition": "Ensure a copy of a Pod runs on specified nodes. Used to deploy system services to every node.",
+        "Source": "DaemonSet Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/"
+      },
+      {
+        "ID": 49,
+        "Term": "StatefulSets",
+        "Definition": "Manages stateful Pods, providing ordering and uniqueness guarantees. Typically for databases or clustered apps.",
+        "Source": "StatefulSets Kubernetes. (2022). Retrieved from",
+        "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+      },
+      {
+        "ID": 50,
+        "Term": "Helm",
+        "Definition": "A package manager for Kubernetes that helps install and manage applications and services. Provides reusable configurations.",
+        "Source": "Helm. Helm Docs. (n.d.). Retrieved from",
+        "url": "https://helm.sh/docs/"
+      }
 ];
 
 module.exports = {title, introduce, titleList, termsList};
